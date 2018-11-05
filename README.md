@@ -5,7 +5,7 @@ Then add it to another image in order to generate a much cuter and funny image!
 
 ![robots](https://user-images.githubusercontent.com/31902939/48018005-b7cfd980-e0fd-11e8-9a54-e99f57cbfd75.jpg)   
 
-We can add some cute elements to the two robots. For example:
+We can add some cute elements to the two_robots image. For example:
 
 ![dog](https://user-images.githubusercontent.com/31902939/48018143-109f7200-e0fe-11e8-8f54-bd1078b0c9d8.jpg)
 
