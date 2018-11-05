@@ -1,9 +1,5 @@
-/* FILE: A3_solution.h
- * 
- * BRIEF: Contains specifications for the functions you must implement
- *        for Assignment 3.
- *
- * DATE: Oct 22, 2018
+/*
+ * BRIEF: Contains specifications for the functions that must implement
  */
 
 /* FUNCTION: bmp_open
