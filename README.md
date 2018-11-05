@@ -12,3 +12,4 @@ We can add some cute elements to the two robots. For example:
 After resizing the pixel data of an cute element image by a scaling factor given as an argument, 
 enter make test on the command line interface in bash, we will get a new super cute picture!
 
+![cute_image](https://user-images.githubusercontent.com/31902939/48020880-10ef3b80-e105-11e8-9a70-98bb6a37f3fe.jpg)
