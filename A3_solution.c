@@ -57,6 +57,8 @@ bmp_open( char* bmp_filename,        unsigned int *width,
   return img_data;  
 }
 
+
+
 void 
 bmp_close( unsigned char **img_data )
 {
@@ -65,6 +67,7 @@ bmp_close( unsigned char **img_data )
     
   }
 }
+
 
 unsigned char***  
 bmp_scale( unsigned char*** pixel_array, unsigned char* header_data, unsigned int header_size,
@@ -109,6 +112,9 @@ bmp_scale( unsigned char*** pixel_array, unsigned char* header_data, unsigned in
 
   return new_pixel_array;
 }         
+
+
+
 
 int 
 bmp_collage( char* background_image_filename,     char* foreground_image_filename, 
