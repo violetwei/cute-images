@@ -10,8 +10,7 @@ bmp_open( char* bmp_filename,        unsigned int *width,
           unsigned int *data_offset                                  )
 {
   unsigned char *img_data=NULL;
-  // REPLACE EVERYTHING FROM HERE
-  //printf( "UNIMPLEMENTED FUNCTION: bmp_open has not yet been coded. Please complete before submitting!\n");
+  
    FILE *bmpfile = fopen(bmp_filename, "rb");
 
   if(bmpfile == NULL){
@@ -55,20 +54,16 @@ bmp_open( char* bmp_filename,        unsigned int *width,
 
   img_data= mallocData;
   
-  // TO HERE!  
   return img_data;  
 }
 
 void 
 bmp_close( unsigned char **img_data )
 {
-  // REPLACE EVERYTHING FROM HERE
-  //printf( "UNIMPLEMENTED FUNCTION: bmp_close has not yet been coded. Please complete before submitting!\n");
   if(*img_data != NULL){
     free(*img_data);
-    //img_data=NULL;
+    
   }
-  // TO HERE!  
 }
 
 unsigned char***  
@@ -77,8 +72,6 @@ bmp_scale( unsigned char*** pixel_array, unsigned char* header_data, unsigned in
            float scale )
 {
   unsigned char*** new_pixel_array = NULL; 
-  // REPLACE EVERYTHING FROM HERE
-  //printf( "UNIMPLEMENTED FUNCTION: bmp_scale has not yet been coded. Please complete before submitting!\n");
 
   if(pixel_array == NULL){
     return NULL;
@@ -114,7 +107,6 @@ bmp_scale( unsigned char*** pixel_array, unsigned char* header_data, unsigned in
 
   new_pixel_array=malloc_3DHeap;
 
-  // TO HERE! 
   return new_pixel_array;
 }         
 
@@ -123,8 +115,6 @@ bmp_collage( char* background_image_filename,     char* foreground_image_filenam
              char* output_collage_image_filename, int row_offset,                  
              int col_offset,                      float scale )
 {
-  // REPLACE EVERYTHING FROM HERE
-  //printf( "UNIMPLEMENTED FUNCTION: bmp_collage has not yet been coded. Please complete before submitting!\n");
 
   unsigned char*   header_data_f;
   unsigned int     header_size_f, width_f, height_f, num_colors_f;
@@ -170,8 +160,6 @@ bmp_collage( char* background_image_filename,     char* foreground_image_filenam
   bmp_from_3D_array( output_collage_image_filename, header_data_b, header_size_b, pixel_array_background,
                      width_b,   height_b,      num_colors_b                       );
 
-
-  // TO HERE! 
   return 0;
 }              
 
