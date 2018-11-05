@@ -1,21 +1,3 @@
-/* FILE: A3_solutions.c is where you will code your answers for Assignment 3.
- * 
- * Each of the functions below can be considered a start for you. They have 
- * the correct specification and are set up correctly with the header file to
- * be run by the tester programs.  
- *
- * You should leave all of the code as is, especially making sure not to change
- * any return types, function name, or argument lists, as this will break
- * the automated testing. 
- *
- * Your code should only go within the sections surrounded by
- * comments like "REPLACE EVERTHING FROM HERE... TO HERE.
- *
- * The assignment document and the header A3_solutions.h should help
- * to find out how to complete and test the functions. Good luck!
- *
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
