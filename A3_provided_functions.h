@@ -1,10 +1,7 @@
-/* FILE: A3_provided_functions.h
- * 
+/*
  * BRIEF: A few functions to help with reading and writing
  *        the bmp data that saves you the ugliest parts
  *        of working with the pixel data.
- *
- * DATE: Oct 22, 2018
  */
 
 
