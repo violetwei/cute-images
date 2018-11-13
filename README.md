@@ -15,3 +15,5 @@ After resizing the pixel data of an cute element image by a scaling factor given
 enter make test on the command line interface in bash, we will get a new super cute picture!
 
 ![cute_image](https://user-images.githubusercontent.com/31902939/48020880-10ef3b80-e105-11e8-9a70-98bb6a37f3fe.jpg)
+
+Link to project preview: https://www.cs.mcgill.ca/~zwei10/A3_tester.html
